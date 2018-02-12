@@ -2,3 +2,9 @@
 
 # audio
 ro.audio.monitorRotation=1
+
+# device name
+ro.product.device=titan
+
+# Enable double sim
+ril.num_slots=2

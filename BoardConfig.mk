@@ -31,7 +31,7 @@ TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 
 # Kernel
 BOARD_CUSTOM_BOOTIMG_MK := $(DEVICE_PATH)/mkbootimg.mk
-TARGET_KERNEL_CONFIG := titan_defconfig
+TARGET_KERNEL_CONFIG := titan_halium_2_defconfig
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 10444800
