@@ -34,6 +34,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
 
+# Configs
+PRODUCT_COPY_FILES += \
+    device/motorola/titan/rootdir/etc/init_wlan_bt.sh:system/etc/init_wlan_bt.sh
+
 # Ubuntu Overlay Files
 PRODUCT_COPY_FILES += \
     device/motorola/titan/ubuntu/adbd.conf:system/ubuntu/etc/init/adbd.conf \
